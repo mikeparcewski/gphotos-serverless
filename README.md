@@ -29,7 +29,7 @@ For the fastest setup, don’t checkout via command line.  Instead, open [VS Cod
     * Then, click "Clone Repository" and paste the clone url for this repo in entered box
     ![Cloning the Repo](images/Cloning-Repo.png)
 * Next, select python 3 environment when it pops up at the top of your screen
-  ![Select Python](images/Select-Python.png)
+![Select Python](images/Select-Python.png)
 * Finally, you’ll see a dialog in the bottom corner saying VS “detected Azure Function Project”, click “Yes” on it
 ![Initialize Function](images/Initialize-Function.png)
 
