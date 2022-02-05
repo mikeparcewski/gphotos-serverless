@@ -8,6 +8,29 @@ Parses the HTML page returned from a public google photos album and returns the 
 
 > You could do something similar using google API's, but the setup required seemed more than the 20 lines of code to do this, plus can embed this directly in HTML!
 
+### Service Response
+
+This function, when provided a valid Google photos alibum ID, will return a json payload that contains an array of images from the album with their height/width.
+
+```json
+  {
+    "images": [
+      {
+        "src":"https://lh3.googleusercontent.com/-Z4_GTK5gw2ke5d9pH1H48SBA6DWp4FaGx1wYNap1U23A34CgNtc2mcw75MAJ3lP1R3w00nU_ftdurj7akXmhqYg7z6tMrepLj2N3tJc93fHUG5rfD6mqKaBGJ3ur17o6TvBHMII9Q=h988",
+        "w":1500,
+        "h":988
+      },
+      {
+        "src":"https://lh3.googleusercontent.com/dwdOyD2zpcpfdV9QWvDt1i83LvOfEx0GE1jzy0TVHWqU9fq8FSW70YXykguDmeRWJW9ophqA8bcnYxBr68yS3fjHFp-8Vx6HSS-NQjq_FcZUCP__GiukzcJVhg44VWthiylleWEtMw=h800",
+        "w":1400,
+        "h":800
+      }
+    ]
+  }
+```
+
+> For my project I use this with react-stack-grid - https://github.com/tsuyoshiwada/react-stack-grid), which creates a modern scrolling gallery (see https://www.dragonflyoib.com/gallery fpr example)
+
 ### PreRequisites
 
 * VS Code with Azure Tools extension
@@ -42,7 +65,7 @@ For the fastest setup, don’t checkout via command line.  Instead, open [VS Cod
 * In your browser you will need the URL plus the google photos id we created in the last section.
     * Example: http://localhost:7071/api/GooglePhotosGallery?id=Srz7Y8XxxZDm2cfM6
 
-> If you’re building the app you want to embed this in locally, nows the time to start playing with it (for my project I used it with react-stack-grid - https://github.com/tsuyoshiwada/react-stack-grid)
+> If you’re building the app you want to embed this in locally, now is the time to start playing with it.
 
 ### Deploying
 
