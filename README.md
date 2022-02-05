@@ -13,7 +13,7 @@ Parses the HTML page returned from a public google photos album and returns the 
 * VS Code
 * Azure Subscriptions
 * Public Google Photos Album
-* The ID for your album (e.g. https://photos.app.goo.gl/Srz7Y8XxxZDm2cfM6 where Srz7Y8XxxZDm2cfM6 is the ID)
+* The ID for your album (e.g. https://photos.app.goo.gl/Srz7Y8XxxZDm2cfM6 where **Srz7Y8XxxZDm2cfM6** is the ID)
 
 > If you haven't ever deployed a function before to Azure, reccomend reading https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions before you do this.
 
