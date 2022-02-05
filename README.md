@@ -6,10 +6,14 @@ Based on on [publicalbum.org](https://www.publicalbum.org/blog/embedding-google-
 
 Parses the HTML page returned from a public google photos album and returns the images as JSON.  This allows you to manage you entire gallery within google photos (add/remove, order, etc...) and embed the gallery or use it within any application easily that supports a JSON payload.
 
+> You could do something similar using google API's, but the setup required seemed more than the 20 lines of code to do this, plus can embed this directly in HTML!
+
 ### PreRequisites
 
 * VS Code
 * Azure Subscriptions
+* Public Google Photos Album
+* The ID for your album (e.g. https://photos.app.goo.gl/**Srz7Y8XxxZDm2cfM6**)
 
 > If you haven't ever deployed a function before to Azure, reccomend reading https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions before you do this.
 
