@@ -22,15 +22,15 @@ Parses the HTML page returned from a public google photos album and returns the 
 For the fastest setup, don’t checkout via command line.  Instead, open [VS Code](https://code.visualstudio.com/) and follow the following steps.
 
 * Clone directly in VS Code
-    * Click on “Source Control” in the left column
+    * Click on “Source Control” in the left column  
     ![source control button](images/Source-Control.png)
-    * Get the link to clone this repo
-    ![Getting the URL](images/Get-URL.png)
+    * Get the link to clone this repo  
+    ![Getting the URL](images/Get-URL.png)  
     * Then, click "Clone Repository" and paste the clone url for this repo in entered box
-    ![Cloning the Repo](images/Cloning-Repo.png)
-* Next, select python 3 environment when it pops up at the top of your screen
+    ![Cloning the Repo](images/Cloning-Repo.png)  
+* Next, select python 3 environment when it pops up at the top of your screen  
 ![Select Python](images/Select-Python.png)
-* Finally, you’ll see a dialog in the bottom corner saying VS “detected Azure Function Project”, click “Yes” on it
+* Finally, you’ll see a dialog in the bottom corner saying VS “detected Azure Function Project”, click “Yes” on it  
 ![Initialize Function](images/Initialize-Function.png)
 
 ### Running locally
