@@ -35,9 +35,9 @@ For the fastest setup, don’t checkout via command line.  Instead, open [VS Cod
 
 ### Running locally
 
-* Click on the run/debug icon in the left navigation.  You'll see the "RUN AND DEBUG" panel open to the right, click on the green play button.
+* Click on the run/debug icon in the left navigation.  You'll see the "RUN AND DEBUG" panel open to the right, click on the green play button.    
 ![Run the Function](images/Run-Debug.png)
-* Grab the URL from the terminal window (bottom of IDE)
+* Grab the URL from the terminal window (bottom of IDE)    
 ![Terminal Window](images/Terminal-Window.png)
 * In your browser you will need the URL plus the google photos id we created in the last section.
     * Example: http://localhost:7071/api/GooglePhotosGallery?id=Srz7Y8XxxZDm2cfM6
@@ -46,28 +46,28 @@ For the fastest setup, don’t checkout via command line.  Instead, open [VS Cod
 
 ### Deploying
 
-* Open azure panel by clicking on Azure icon in left nav
+* Open azure panel by clicking on Azure icon in left nav    
 ![Azure Icon](images/Azure-Button.png)
-* Expand "Local Project" under "Functions" and then expand "Functions"
+* Expand "Local Project" under "Functions" and then expand "Functions"    
 ![Select Project](images/Select-Project.png)
-* Click on the cloud icon to deploy
+* Click on the cloud icon to deploy  
 ![Cloud Icon](images/Cloud-Icon.png)
-* Click "Create new Function App in Azure" (not the advanced version)
+* Click "Create new Function App in Azure" (not the advanced version)    
 ![Create Function](images/Create-Function.png)
-* Enter name for the function and then hit enter
+* Enter name for the function and then hit enter    
 ![Enter Name](images/Enter-Name.png)
-* Choose the runtime stack (3.9)
+* Choose the runtime stack (3.9)  
 ![Select Project](images/Select-Runtime.png)
-* Choose region
+* Choose region  
 ![Choose Region](images/Choose-Region.png)
 
 > This will take a few
 
 ### Using Live Function
 
-* Open the Azure panel again
+* Open the Azure panel again  
 ![Azure Icon](images/Azure-Button.png)
-* Expand “Azure Subscription”, expand the function name (e.g. GooglePhotosGallery), and finally expand "Functions" under it.
+* Expand “Azure Subscription”, expand the function name (e.g. GooglePhotosGallery), and finally expand "Functions" under it.  
 ![Expand Subscription](images/Expand-Subscription.png)
 * Finally click “Copy Function URL” for the live URL
 ![Copy Function URL](images/Copy-URL.png)
