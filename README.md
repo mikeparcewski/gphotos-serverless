@@ -69,7 +69,7 @@ For the fastest setup, don’t checkout via command line.  Instead, open [VS Cod
 ![Azure Icon](images/Azure-Button.png)
 * Expand “Azure Subscription”, expand the function name (e.g. GooglePhotosGallery), and finally expand "Functions" under it.  
 ![Expand Subscription](images/Expand-Subscription.png)
-* Finally click “Copy Function URL” for the live URL
+* Finally click “Copy Function URL” for the live URL  
 ![Copy Function URL](images/Copy-URL.png)
 
 > Honestly, it took me longer to write the README then to develop/deploy the function, but if you're like me and get bored with the standard "Hello World" apps or actually (like me) need this functionality why not :)
